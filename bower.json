@@ -1,0 +1,21 @@
+{
+  "name": "nodechat",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Matthew Hays <mdhays1995@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/mdhays/nodechat",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "socket.io-client": "^1.4.5"
+  }
+}
