@@ -1,10 +1,16 @@
 'use strict';
 
-const server = require('http').createServer(); // This starts the server using native Node syntax.
+const express = require('express');
+const app = express();
+const server = require('http').createServer(app);
 const io = require('socket.io')(server);
 
 const PORT = process.env.PORT || 3000;
 
+app.get('/', (req, res) => {
+  res.send('hello');
+});
+
 server.listen(PORT, () => {
-  console.log(`server listening on port ${PORT}.`);
+  console.log(`server listening on port: ${PORT}.`);
 });
