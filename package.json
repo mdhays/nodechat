@@ -1,0 +1,25 @@
+{
+  "name": "nodechat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mdhays/nodechat.git"
+  },
+  "keywords": [],
+  "author": "Matthew Hays <mdhays1995@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mdhays/nodechat/issues"
+  },
+  "homepage": "https://github.com/mdhays/nodechat#readme",
+  "devDependencies": {
+    "nodemon": "^1.9.1"
+  }
+}
